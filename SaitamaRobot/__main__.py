@@ -53,12 +53,12 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 
-I am a Powerful group management bot 🙂  🤿 \nCreated by [My master](https://t.me/Prabha_sha) 
-Based on Project Hexzy written by [★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](https://t.me/Prabha_sha) 🤩
+I am a Powerful group management bot 🙂  🤿 \nCreated by [My master](https://t.me/tharukaliyanage) 
+Based on Project Hexzy written by [harukaliyanage](https://t.me/tharukaliyanage) 🤩
 You can find my list of available commands with /help.
 Start Me By /start
 
-©2021 [★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](t.me/Prabha_sha) Bot All Rights Reserved
+©2021 [tharukaliyanage](t.me/tharukaliyanage) Bot All Rights Reserved
 """
 
 HELP_STRINGS = """
@@ -81,12 +81,12 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/23c40c8b88da2370e9743.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/7e0ce49076c49e9768f07.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him on [Telegram](t.me/Prabha_sha)  or  [PayPal](paypal.me/PrabhashaPiumantha)."""
+There are two ways of supporting him on [Telegram](t.me/Prabha_sha)  or  [PayPal](https://t.me/tharukaliyanage)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -205,18 +205,18 @@ def start(update: Update, context: CallbackContext):
                     [[
                         InlineKeyboardButton(
                              text=" 🚑 Support Group ",
-                             url="https://t.me/Gangofmafiateam"),
+                             url="https://t.me/ElenaBotTharu"),
                          InlineKeyboardButton(
                              text=" 🦠 Update Channel ",
-                             url="https://t.me/Mafia_Update")
+                             url="https://t.me/TharuBots")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ⛑ Help ",
-                            url="https://t.me/HexzyRobot?start=help"),
+                            url="http://t.me/TheElenaBot?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Developer ",
-                             url="https://t.me/Prabha_sha")        
+                             url="https://t.me/tharukaliyanage")        
                        
                      ], 
                      [
